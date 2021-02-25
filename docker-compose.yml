@@ -1,0 +1,12 @@
+version: '3'
+services: 
+  base-services:
+    image: "base-image:1.00"
+    container_name: "base-container"
+    tty: true
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes: 
+      - .:/usr/base
+    # env_file: my_env_file.env
