@@ -1,8 +1,8 @@
 version: '3'
 services: 
-  base-services:
-    image: "base-image:1.00"
-    container_name: "base-container"
+  django-services:
+    image: "django-image:1.00"
+    container_name: "django-container"
     tty: true
     build: 
       context: .
