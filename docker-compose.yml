@@ -8,5 +8,5 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes: 
-      - .:/usr/base
+      - .:/usr/django
     # env_file: my_env_file.env
