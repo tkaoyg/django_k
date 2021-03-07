@@ -4,6 +4,6 @@ matplotlib
 requests
 bs4
 pylint
-django==3.0.2
+django
 slackweb
 slackbot
